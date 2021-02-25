@@ -3,7 +3,6 @@ module github.com/keptn/keptn/cli
 go 1.13
 
 require (
-	cloud.google.com/go v0.40.0 // indirect
 	github.com/Masterminds/sprig/v3 v3.1.0 // indirect
 	github.com/alecthomas/jsonschema v0.0.0-20201129101101-7b852d451add
 	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef
@@ -25,8 +24,8 @@ require (
 	github.com/mitchellh/mapstructure v1.4.1
 	github.com/onsi/ginkgo v1.11.0 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
-	github.com/spf13/cobra v1.0.0
-	github.com/spf13/viper v1.4.0
+	github.com/spf13/cobra v1.1.3
+	github.com/spf13/viper v1.7.0
 	github.com/stretchr/testify v1.7.0
 	google.golang.org/appengine v1.6.5 // indirect
 	gopkg.in/yaml.v2 v2.4.0
