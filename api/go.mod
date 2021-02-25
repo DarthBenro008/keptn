@@ -3,9 +3,9 @@ module github.com/keptn/keptn/api
 go 1.13
 
 require (
-	github.com/cloudevents/sdk-go v0.10.0 // indirect
+	cloud.google.com/go v0.40.0 // indirect
 	github.com/cloudevents/sdk-go/v2 v2.3.1
-	github.com/go-openapi/errors v0.19.9
+	github.com/go-openapi/errors v0.20.0
 	github.com/go-openapi/loads v0.20.2
 	github.com/go-openapi/runtime v0.19.24
 	github.com/go-openapi/spec v0.20.3
@@ -16,7 +16,6 @@ require (
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/uuid v1.2.0
 	github.com/gophercloud/gophercloud v0.9.0 // indirect
-	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/json-iterator/go v1.1.9 // indirect
 	github.com/keptn/go-utils v0.8.0-alpha.0.20210222113312-2b994d33bb82
